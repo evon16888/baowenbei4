@@ -3,6 +3,7 @@
 
 目前包括以下python扩展
 ccxt==2.2.40
+
 matplotlib==3.5.1
 dataframe_image==0.1.5
 DrissionPage==3.2.34
