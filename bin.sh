@@ -52,3 +52,4 @@ echo "开始安装nodejs"
 sudo apt install nodejs npm -y
 echo "开始安装PM2"
 sudo npm install pm2 -g
+echo "安装完成"
