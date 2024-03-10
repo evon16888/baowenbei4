@@ -49,6 +49,6 @@ pip install bs4==0.0.2
 echo "退出虚拟环境"
 deactivate
 echo "开始安装nodejs"
-sudo apt install nodejs npm
+sudo apt install nodejs npm -y
 echo "开始安装PM2"
 sudo npm install pm2 -g
