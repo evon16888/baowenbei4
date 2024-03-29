@@ -55,8 +55,9 @@ sudo npm install pm2 -g
 echo "安装完成PM2"
 echo "创建目录"
 mkdir baowenbei
-echo "下载文件"
-wget ****/bwb.zip
+echo "下载文件, 请输入下载链接，需要包括http"
+read down_link 
+wget -N --no-check-certificate "$down_link"
 echo "解压文件"
 unzip bwb.zip
 echo "删除压缩包"
