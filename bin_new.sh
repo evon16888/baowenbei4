@@ -55,6 +55,8 @@ sudo npm install pm2 -g
 echo "安装完成PM2"
 echo "创建目录"
 mkdir baowenbei
+echo "进入目录"
+cd baowenbei
 echo "下载文件, 请输入下载链接，需要包括http"
 read down_link 
 wget -N --no-check-certificate "$down_link"
