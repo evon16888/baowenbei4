@@ -6,6 +6,9 @@ echo "开始更新软件包列表和软件包数据库"
 sudo apt update
 echo "向系统添加名为deadsnakes/ppa的软件源"
 sudo add-apt-repository ppa:deadsnakes/ppa
+echo "安装zip和unzip"
+sudo apt install zip
+sudo apt install unzip
 echo "开始安装python3.8"
 sudo apt install python3.8 -y
 echo "安装Python3.8虚拟环境模块"
